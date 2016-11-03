@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<logger class="org.jpos.util.DailyLogListener">
+<log realm="Q2.system" at="Sun May 29 22:46:35.320 WIB 2016" lifespan="592ms">
+  <info>
+    Q2 started, deployDir=/Users/san/Documents/ApplicationColection/__github__/jDimoMDTester/build/install/jDimoMDTester/deploy
+    
+    jPOS 2.0.1-SNAPSHOT master/42f8ad6 (2015-06-06 12:13:07 UTC)
+jDimoMDTester 1.1.0 master/ba7524b (2016-05-29 22:46:31 WIB)
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+jPOS Community Edition, licensed under GNU AGPL v3.0.
+This software is probably not suitable for commercial use.
+Please see http://jpos.org/license for details.
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.9 (Darwin)
+
+iQEcBAEBAgAGBQJMolHDAAoJEOQyeO71nYtFv74H/3OgehDGEy1VXp2U3/GcAobg
+HH2eZjPUz53r38ARPiU3pzm9LwDa3WZgJJaa/b9VrJwKvbPwe9+0kY3gScDE1skT
+ladHt+KHHmGQArEutkzHlpZa73RbroFEIa1qmN6MaDEHGoxZqDh0Sv2cpvOaVYGO
+St8ZaddLBPC17bSjAPWo9sWbvL7FgPFOHhnPmbeux8SLtnfWxXWsgo5hLBanKmO1
+1z+I/w/6DL6ZYZU6bAJUk+eyVVImJqw0x3IEElI07Nh9MC6BA4iJ77ejobj8HI2r
+q9ulRPEqH9NR79619lNKVUkE206dVlXo7xHmJS1QZy5v/GT66xBxyDVfTduPFXk=
+=oP+v
+-----END PGP SIGNATURE-----
+
+  </info>
+</log>
+<log realm="Q2.system" at="Sun May 29 22:46:35.338 WIB 2016" lifespan="11ms">
+  <info>
+    deploy: /Users/san/Documents/ApplicationColection/__github__/jDimoMDTester/build/install/jDimoMDTester/deploy/10_clientsimulator_channel.xml
+  </info>
+</log>
+<log realm="Q2.system" at="Sun May 29 22:46:35.348 WIB 2016" lifespan="8ms">
+  <info>
+    deploy: /Users/san/Documents/ApplicationColection/__github__/jDimoMDTester/build/install/jDimoMDTester/deploy/20_clientsimulator_mux.xml
+  </info>
+</log>
+<log realm="Q2.system" at="Sun May 29 22:46:35.359 WIB 2016" lifespan="10ms">
+  <info>
+    deploy: /Users/san/Documents/ApplicationColection/__github__/jDimoMDTester/build/install/jDimoMDTester/deploy/25_clientsimulator_ui.xml
+  </info>
+</log>
+<log realm="Q2.system" at="Sun May 29 22:46:35.377 WIB 2016" lifespan="17ms">
+  <info>
+    deploy: /Users/san/Documents/ApplicationColection/__github__/jDimoMDTester/build/install/jDimoMDTester/deploy/30_clientsimulator.xml
+  </info>
+</log>
+<log realm="Q2.system" at="Sun May 29 22:46:35.386 WIB 2016" lifespan="7ms">
+  <info>
+    deploy: /Users/san/Documents/ApplicationColection/__github__/jDimoMDTester/build/install/jDimoMDTester/deploy/99_sysmon.xml
+  </info>
+</log>
+<log realm="channel/127.0.0.1:3000" at="Sun May 29 22:46:35.459 WIB 2016" lifespan="14ms">
+  <connect>
+    localhost:3000
+  </connect>
+</log>
+<log realm="org.jpos.q2.qbean.SystemMonitor" at="Sun May 29 22:46:36.851 WIB 2016">
+  <info>
+    Starting SystemMonitor
+  </info>
+</log>
+<log realm="org.jpos.q2.qbean.SystemMonitor" at="Sun May 29 22:46:36.857 WIB 2016">
+  <info>
+               OS: Mac OS X
+             host: imams-MBP/192.168.1.126
+          version: 2.0.1-SNAPSHOT (42f8ad6)
+         instance: 0256af70-6c13-42f8-b227-353bdb2f0e0e
+           uptime: 00:00:02.406
+       processors: 4
+           drift : 0
+    memory(t/u/f): 245/64/181
+          threads: 17
+            Thread[Reference Handler,10,system]
+            Thread[Finalizer,8,system]
+            Thread[Signal Dispatcher,9,system]
+            Thread[AppKit Thread,5,system]
+            Thread[AWT-Shutdown,5,system]
+            Thread[Java2D Queue Flusher,10,system]
+            Thread[Java2D Disposer,10,system]
+            Thread[Q2-0256af70-6c13-42f8-b227-353bdb2f0e0e,5,main]
+            Thread[DestroyJavaVM,5,main]
+            Thread[pool-1-thread-1,5,main]
+            Thread[Timer-0,5,main]
+            Thread[channel-sender-clientsimulator-send,5,main]
+            Thread[channel-receiver-clientsimulator-receive,5,main]
+            Thread[AWT-EventQueue-0,6,main]
+            Thread[Thread-5,5,main]
+            Thread[Thread-6,5,main]
+            Thread[Thread-7,5,main]
+            Thread[Thread-8,5,main]
+            Thread[Thread-9,5,main]
+            Thread[Thread-10,5,main]
+            Thread[Thread-11,5,main]
+            Thread[Thread-12,5,main]
+            Thread[Thread-13,5,main]
+            Thread[SystemMonitor,5,main]
+         encoding: UTF-8
+    name-registrar:
+      tspace:default: org.jpos.space.TSpace
+        <key count='1'>clientsimulator-adaptor.ready</key>
+        <keycount>0</keycount>
+        <gcinfo>0,0</gcinfo>
+
+      UI: org.jpos.ui.UI
+      logger.Q2: org.jpos.util.Logger
+      channel.clientsimulator-adaptor: org.jpos.iso.channel.ASCIIChannel
+      clientsimulator-adaptor: org.jpos.q2.iso.ChannelAdaptor
+        tx=0, rx=0, connects=1, last=0
+      mux.clientsimulator-mux: org.jpos.q2.iso.QMUX
+        tx=0, rx=0, tx_expired=0, tx_pending=0, rx_expired=0, rx_pending=0, rx_unhandled=0, rx_forwarded=0, connected=true, last=0
+      logger.: org.jpos.util.Logger
+      logger.Q2.buffered: org.jpos.util.BufferedLogListener
+  </info>
+</log>
+<log realm="client-simulator" at="Sun May 29 22:46:37.000 WIB 2016">
+  <trace>
+    ---------------------------[ Simple Echo Test ]---------------------------
+  </trace>
+</log>
+<log realm="client-simulator" at="Sun May 29 22:46:37.002 WIB 2016">
+  <trace>
+    ---------------------------[ Simple Echo Test ]---------------------------
+  </trace>
+</log>
+<log realm="client-simulator" at="Sun May 29 22:46:37.004 WIB 2016">
+  <trace>
+    ---------------------------[ Simple Echo Test ]---------------------------
+  </trace>
+</log>
+<log realm="client-simulator" at="Sun May 29 22:46:37.012 WIB 2016">
+  <trace>
+    ---------------------------[ Simple Echo Test ]---------------------------
+  </trace>
+</log>
+<log realm="client-simulator" at="Sun May 29 22:46:37.014 WIB 2016" lifespan="13ms">
+  <trace>
+    ---------------------------[ Simple Echo Test ]---------------------------
+  </trace>
+</log>
+<log realm="client-simulator" at="Sun May 29 22:46:37.017 WIB 2016">
+  <trace>
+    ---------------------------[ Simple Echo Test ]---------------------------
+  </trace>
+</log>
+<log realm="client-simulator" at="Sun May 29 22:46:37.019 WIB 2016" lifespan="19ms">
+  <trace>
+    ---------------------------[ Simple Echo Test ]---------------------------
+  </trace>
+</log>
+<log realm="channel/127.0.0.1:3000" at="Sun May 29 22:46:37.023 WIB 2016" lifespan="2ms">
+  <send>
+    <isomsg direction="outgoing">
+      <!-- org.jpos.iso.packager.GenericPackager[cfg/packager/iso87ascii-bsm.xml] -->
+      <field id="0" value="0800"/>
+      <field id="3" value="000010"/>
+      <field id="7" value="0529224637"/>
+      <field id="11" value="797017"/>
+      <field id="12" value="000000"/>
+      <field id="32" value="168"/>
+      <field id="33" value="168"/>
+    </isomsg>
+  </send>
+</log>
+<log realm="channel/127.0.0.1:3000" at="Sun May 29 22:46:37.028 WIB 2016" lifespan="1ms">
+  <send>
+    <isomsg direction="outgoing">
+      <!-- org.jpos.iso.packager.GenericPackager[cfg/packager/iso87ascii-bsm.xml] -->
+      <field id="0" value="0800"/>
+      <field id="3" value="000010"/>
+      <field id="7" value="0529224637"/>
+      <field id="11" value="797018"/>
+      <field id="12" value="000000"/>
+      <field id="32" value="168"/>
+      <field id="33" value="168"/>
+    </isomsg>
+  </send>
+</log>
+<log realm="client-simulator" at="Sun May 29 22:46:37.037 WIB 2016" lifespan="17ms">
+  <trace>
+    ---------------------------[ Simple Echo Test ]---------------------------
+  </trace>
+</log>
+<log realm="channel/127.0.0.1:3000" at="Sun May 29 22:46:37.040 WIB 2016" lifespan="3ms">
+  <send>
+    <isomsg direction="outgoing">
+      <!-- org.jpos.iso.packager.GenericPackager[cfg/packager/iso87ascii-bsm.xml] -->
+      <field id="0" value="0800"/>
+      <field id="3" value="000010"/>
+      <field id="7" value="0529224637"/>
+      <field id="11" value="797019"/>
+      <field id="12" value="000000"/>
+      <field id="32" value="168"/>
+      <field id="33" value="168"/>
+    </isomsg>
+  </send>
+</log>
+<log realm="channel/127.0.0.1:3000" at="Sun May 29 22:46:37.044 WIB 2016">
+  <send>
+    <isomsg direction="outgoing">
+      <!-- org.jpos.iso.packager.GenericPackager[cfg/packager/iso87ascii-bsm.xml] -->
+      <field id="0" value="0800"/>
+      <field id="3" value="000010"/>
+      <field id="7" value="0529224637"/>
+      <field id="11" value="797021"/>
+      <field id="12" value="000000"/>
+      <field id="32" value="168"/>
+      <field id="33" value="168"/>
+    </isomsg>
+  </send>
+</log>
+<log realm="client-simulator" at="Sun May 29 22:46:37.053 WIB 2016" lifespan="20ms">
+  <trace>
+    ---------------------------[ Simple Echo Test ]---------------------------
+  </trace>
+</log>
+<log realm="client-simulator" at="Sun May 29 22:46:37.056 WIB 2016" lifespan="31ms">
+  <error>
+    <iso-exception>
+      Duplicate key 'clientsimulator-send.080797024.req' detected
+      org.jpos.iso.ISOException: Duplicate key 'clientsimulator-send.080797024.req' detected
+	at org.jpos.q2.iso.QMUX.request(QMUX.java:119)
+	at org.jpos.simulator.TestRunner.runSuite(TestRunner.java:110)
+	at org.jpos.simulator.TestRunner.run(TestRunner.java:73)
+	at java.lang.Thread.run(Thread.java:745)
+    </iso-exception>
+  </error>
+</log>
+<log realm="Q2.system" at="Sun May 29 22:46:37.066 WIB 2016">
+  <info>
+    shutting down
+  </info>
+</log>
+<log realm="channel/127.0.0.1:3000" at="Sun May 29 22:46:37.069 WIB 2016" lifespan="16ms">
+  <send>
+    <isomsg direction="outgoing">
+      <!-- org.jpos.iso.packager.GenericPackager[cfg/packager/iso87ascii-bsm.xml] -->
+      <field id="0" value="0800"/>
+      <field id="3" value="000010"/>
+      <field id="7" value="0529224637"/>
+      <field id="11" value="797024"/>
+      <field id="12" value="000000"/>
+      <field id="32" value="168"/>
+      <field id="33" value="168"/>
+    </isomsg>
+  </send>
+</log>
+<log realm="channel/127.0.0.1:3000" at="Sun May 29 22:46:37.075 WIB 2016" lifespan="1ms">
+  <send>
+    <isomsg direction="outgoing">
+      <!-- org.jpos.iso.packager.GenericPackager[cfg/packager/iso87ascii-bsm.xml] -->
+      <field id="0" value="0800"/>
+      <field id="3" value="000010"/>
+      <field id="7" value="0529224637"/>
+      <field id="11" value="797033"/>
+      <field id="12" value="000000"/>
+      <field id="32" value="168"/>
+      <field id="33" value="168"/>
+    </isomsg>
+  </send>
+</log>
+<log realm="channel/127.0.0.1:3000" at="Sun May 29 22:46:37.079 WIB 2016">
+  <send>
+    <isomsg direction="outgoing">
+      <!-- org.jpos.iso.packager.GenericPackager[cfg/packager/iso87ascii-bsm.xml] -->
+      <field id="0" value="0800"/>
+      <field id="3" value="000010"/>
+      <field id="7" value="0529224637"/>
+      <field id="11" value="797050"/>
+      <field id="12" value="000000"/>
+      <field id="32" value="168"/>
+      <field id="33" value="168"/>
+    </isomsg>
+  </send>
+</log>
+<log realm="Q2.system" at="Sun May 29 22:46:37.083 WIB 2016" lifespan="12ms">
+  <trace>
+    undeploying:/Users/san/Documents/ApplicationColection/__github__/jDimoMDTester/build/install/jDimoMDTester/deploy/99_sysmon.xml
+  </trace>
+</log>
+<log realm="org.jpos.q2.qbean.SystemMonitor" at="Sun May 29 22:46:37.085 WIB 2016">
+  <info>
+    Stopping SystemMonitor
+  </info>
+</log>
+<log realm="channel/127.0.0.1:3000" at="Sun May 29 22:46:37.087 WIB 2016" lifespan="4ms">
+  <send>
+    <isomsg direction="outgoing">
+      <!-- org.jpos.iso.packager.GenericPackager[cfg/packager/iso87ascii-bsm.xml] -->
+      <field id="0" value="0800"/>
+      <field id="3" value="000010"/>
+      <field id="7" value="0529224637"/>
+      <field id="11" value="797058"/>
+      <field id="12" value="000000"/>
+      <field id="32" value="168"/>
+      <field id="33" value="168"/>
+    </isomsg>
+  </send>
+</log>
+<log realm="Q2.system" at="Sun May 29 22:46:37.121 WIB 2016">
+  <info>
+    undeployed:/Users/san/Documents/ApplicationColection/__github__/jDimoMDTester/build/install/jDimoMDTester/deploy/99_sysmon.xml
+  </info>
+</log>
+<log realm="Q2.system" at="Sun May 29 22:46:37.130 WIB 2016">
+  <trace>
+    undeploying:/Users/san/Documents/ApplicationColection/__github__/jDimoMDTester/build/install/jDimoMDTester/deploy/30_clientsimulator.xml
+  </trace>
+</log>
+<log realm="Q2.system" at="Sun May 29 22:46:37.192 WIB 2016">
+  <info>
+    undeployed:/Users/san/Documents/ApplicationColection/__github__/jDimoMDTester/build/install/jDimoMDTester/deploy/30_clientsimulator.xml
+  </info>
+</log>
+<log realm="Q2.system" at="Sun May 29 22:46:37.196 WIB 2016" lifespan="1ms">
+  <trace>
+    undeploying:/Users/san/Documents/ApplicationColection/__github__/jDimoMDTester/build/install/jDimoMDTester/deploy/25_clientsimulator_ui.xml
+  </trace>
+</log>
+<log realm="Q2.system" at="Sun May 29 22:46:37.245 WIB 2016">
+  <info>
+    undeployed:/Users/san/Documents/ApplicationColection/__github__/jDimoMDTester/build/install/jDimoMDTester/deploy/25_clientsimulator_ui.xml
+  </info>
+</log>
+<log realm="Q2.system" at="Sun May 29 22:46:37.246 WIB 2016">
+  <trace>
+    undeploying:/Users/san/Documents/ApplicationColection/__github__/jDimoMDTester/build/install/jDimoMDTester/deploy/20_clientsimulator_mux.xml
+  </trace>
+</log>
+<log realm="Q2.system" at="Sun May 29 22:46:37.248 WIB 2016">
+  <info>
+    undeployed:/Users/san/Documents/ApplicationColection/__github__/jDimoMDTester/build/install/jDimoMDTester/deploy/20_clientsimulator_mux.xml
+  </info>
+</log>
+<log realm="Q2.system" at="Sun May 29 22:46:37.249 WIB 2016">
+  <trace>
+    undeploying:/Users/san/Documents/ApplicationColection/__github__/jDimoMDTester/build/install/jDimoMDTester/deploy/10_clientsimulator_channel.xml
+  </trace>
+</log>
+<log realm="channel/127.0.0.1:3000" at="Sun May 29 22:46:37.275 WIB 2016" lifespan="1814ms">
+  <receive/>
+</log>
+<log realm="Q2.system" at="Sun May 29 22:46:37.282 WIB 2016">
+  <info>
+    undeployed:/Users/san/Documents/ApplicationColection/__github__/jDimoMDTester/build/install/jDimoMDTester/deploy/10_clientsimulator_channel.xml
+  </info>
+</log>
+<log realm="Q2.system" at="Sun May 29 22:46:37.291 WIB 2016">
+  <trace>
+    undeploying:/Users/san/Documents/ApplicationColection/__github__/jDimoMDTester/build/install/jDimoMDTester/deploy/00_logger.xml
+  </trace>
+</log>
+</logger>

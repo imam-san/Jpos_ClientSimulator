@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.jpos.ee:jposee-core:2.0.1-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jpos.ee/jposee-core/2.0.1-SNAPSHOT/6bffaa34084e14caf66616e1caebcd2a2682b328/jposee-core-2.0.1-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jpos.ee/jposee-core/2.0.1-SNAPSHOT/22b1e057d0c7a81ff36b2cdb365bb37962183091/jposee-core-2.0.1-SNAPSHOT-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

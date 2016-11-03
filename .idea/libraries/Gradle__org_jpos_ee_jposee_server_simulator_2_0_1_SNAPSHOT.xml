@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.jpos.ee:jposee-server-simulator:2.0.1-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jpos.ee/jposee-server-simulator/2.0.1-SNAPSHOT/ca8c421f7ccc4d1172d303117b5b3077b27eaeb4/jposee-server-simulator-2.0.1-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jpos.ee/jposee-server-simulator/2.0.1-SNAPSHOT/e59f98de4ca88178ec5e386dbdfc7182fc45d54c/jposee-server-simulator-2.0.1-SNAPSHOT-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

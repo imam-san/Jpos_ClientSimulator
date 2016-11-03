@@ -1,0 +1,28 @@
+apply plugin: 'java'
+apply plugin: 'maven'
+apply plugin: 'idea'
+apply plugin: 'eclipse'
+
+group = 'org.jpos.dimoTest'
+version = '1.1.0'
+sourceCompatibility = 1.6
+targetCompatibility = 1.6
+
+repositories {
+    mavenCentral()
+    maven {url 'http://download.oracle.com/maven'}
+    maven {url 'http://jline.sourceforge.net/m2repo'}
+    maven {url 'http://jpos.org/maven' }
+    mavenLocal()
+}
+
+dependencies {
+    compile group:'org.jpos', name:'jpos', version:'2.0.1-SNAPSHOT'
+    compile group :'org.jpos.ee', name : 'jposee-client-simulator', version: '2.0.1-SNAPSHOT'
+    compile group :'org.jpos.ee', name : 'jposee-server-simulator', version: '2.0.1-SNAPSHOT'
+
+    testCompile group:'junit', name:'junit', version:'4.8.2'
+}
+
+apply from: 'jpos-app.gradle'
+
